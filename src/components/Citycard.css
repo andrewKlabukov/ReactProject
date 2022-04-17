@@ -1,0 +1,14 @@
+.city-card__name {
+  height: 30px;
+  width: 512px;
+  background-color: #2A2F45;
+  margin: 0 auto;
+  color: #fff;
+  vertical-align: baseline;
+  border: 1px solid #161B30;
+  padding: 5px;
+  border-radius: 0px 0px 5px 5px;
+}
+.city-card__name a {
+  text-decoration: none;
+}

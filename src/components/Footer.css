@@ -1,0 +1,10 @@
+.footer {
+  height: 3rem;
+  background-color: #2A2F45;
+  color: #fff;
+  padding: 14px 0px 0px 25px; 
+}
+
+.footer-copywrite {
+  opacity: 0.4;
+}

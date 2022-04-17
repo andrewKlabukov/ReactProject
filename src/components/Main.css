@@ -1,0 +1,45 @@
+main {
+  text-align: center; 
+  background-color: #161B30;
+  color: #8A91AB;
+  height: calc(100vh - 96px);
+}
+/* 
+.main { 
+  
+} */
+
+.main span { 
+  color: #fff;
+}
+
+input {
+  width: 510px;
+  height: 56px;
+  outline: none;
+  border: 1px solid #161B30;
+  background-color: #2A2F45; 
+  border-radius: 2px;
+  padding: 15px;
+  color: #fff;
+  font-size: 18px; 
+  margin: 25px;
+}
+
+input :active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.main-content {
+  position: relative;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.main-content__arrow {
+  position: absolute;
+  left: -30px;
+  top: -15px;
+}
