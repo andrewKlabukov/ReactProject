@@ -18,12 +18,7 @@ const Header = () => {
               <Link to="/enter">Войти</Link>
             </div>
           </div>          
-        </header>
-        {/* <Routes>
-          <Route path="/" element={< Main />} />
-          <Route path="/login" element={< Registr />} />
-          <Route path="/enter" element={< Enter />} />
-        </Routes> */}
+        </header>        
       </>  
     )
 }

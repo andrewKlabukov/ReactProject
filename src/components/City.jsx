@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 const City = () => {
-  const [city, setCity] = useState(undefined);
+  const [city, setCity] = useState();
   const params = useParams();
 
   useEffect(() => {

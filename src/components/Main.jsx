@@ -14,9 +14,9 @@ const Main = () => {
         <Routes>
           <Route path="/" element={<Forecast />} />
           <Route path="/login" element={<Registr />} />
-          <Route path="/enter" element={<Enter />} />          
-          <Route path="*" element={<Notfound />} />
+          <Route path="/enter" element={<Enter />} />      
           <Route path="cities/:cityId" element={<City />} />
+          <Route path="*" element={<Notfound />} />
         </Routes>
       </main>
     )
